@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway&display=swap');
+:root{
+    --preto-100: #464646;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    align-items: center;
+}
+.enlaces-a{
+    color: var(--preto-100);
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 25px;
+}
+
+/* PRESENTACIÓN */
