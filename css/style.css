@@ -170,10 +170,14 @@ body{
 }
 .reto_uno{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 .costado{
     width: 40%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
 }
 .costado_title{
     font-size: 22px;
@@ -192,6 +196,7 @@ body{
     color: var(--azul-100);
     border-color: var(--azul-100);
     cursor: pointer;
+    text-align: center;
 }
 .costado_btn2{
     background-color: var(--azul-100);
@@ -201,4 +206,11 @@ body{
     color: var(--preto-branco);
     border-color: var(--azul-100);
     cursor: pointer;
+    text-align: center;
+}
+.costado_btn{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    gap: 10px;
 }
