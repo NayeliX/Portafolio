@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway&display=swap');
 :root{
     --preto-100: #464646;
-    --preto-05: #F5F5F5;
+    --preto-05: #EAF2FD;
+    --preto-06: #F5F5F5;
+    --preto-branco: #FFF;
+    --azul-100: #2A7AE4;
 }
-
+body{
+    background-color: var(--preto-06);
+}
 /* HEADER */
 .header{
     display: flex;
@@ -21,7 +26,7 @@
 }
 
 /* PRESENTACIÓN */
-.container{
+.container_first{
     display: flex;
     justify-content: space-around;
     margin: 1rem;
@@ -62,4 +67,138 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* segunda parte */
+.container_second{
+    background-color: var(--preto-05);
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.second_title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 7rem;
+}
+.second_description{
+    font-size: 16px;
+    display: flex;
+    width: 751px;
+    flex-direction: column;
+    margin-left: 7rem;
+    width: 63%;
+}
+.second_firma{
+    width: 10%;
+    margin-left: 7rem;
+}
+/* tercer parte */
+.third_container{
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
+}
+.third_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.third_cards{
+    background-color: var(--preto-branco);
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+/* cuarta parte */
+.four_container{
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
+}
+.four_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.four_cards{
+    background-color: var(--preto-branco);
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+/* quinta parte */
+.five_container{
+    background-color: var(--preto-05);
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
+}
+.five_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 2rem;
+}
+.five_cards{
+    background-color: var(--preto-branco);
+    width: 276px;
+    height: 274px;
+    padding: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+/* sexta parte */
+.six_container{
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
+}
+.six_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.reto_uno{
+    display: flex;
+    justify-content: space-around;
+}
+.costado{
+    width: 40%;
+}
+.costado_title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 3px;
+}
+.costado_second_title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.costado_btn1{
+    background-color: var(--preto-06);
+    width: 6rem; 
+    height: 2rem;  
+    text-decoration: none;
+    color: var(--azul-100);
+    border-color: var(--azul-100);
+    cursor: pointer;
+}
+.costado_btn2{
+    background-color: var(--azul-100);
+    width: 6rem; 
+    height: 2rem;  
+    text-decoration: none;
+    color: var(--preto-branco);
+    border-color: var(--azul-100);
+    cursor: pointer;
 }
