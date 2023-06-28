@@ -7,7 +7,7 @@
     --azul-100: #2A7AE4;
 }
 body{
-    background-color: var(--preto-06);
+    background-color: var(--preto-06) !important;
 }
 /* HEADER */
 .header{
@@ -108,6 +108,7 @@ body{
 .cards{
     display: flex;
     justify-content: space-around;
+    padding: 2rem;
 }
 .third_cards{
     background-color: var(--preto-branco);
@@ -117,6 +118,7 @@ body{
     display: flex;
     justify-content: end;
     flex-direction: column;
+    text-decoration: none !important;
 }
 /* cuarta parte */
 .four_container{
@@ -136,6 +138,7 @@ body{
     display: flex;
     justify-content: end;
     flex-direction: column;
+    text-decoration: none !important;
 }
 /* quinta parte */
 .five_container{
@@ -173,7 +176,18 @@ body{
     justify-content: center;
     gap: 20px;
 }
+.reto_dos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 .costado{
+    width: 40%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+.costado_dos{
     width: 40%;
     display: flex;
     justify-content: center; 
@@ -184,9 +198,20 @@ body{
     font-weight: 700;
     line-height: 3px;
 }
+.costado_title_dos{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 3px;
+    text-align: end;
+}
 .costado_second_title{
     font-size: 16px;
     font-weight: 500;
+}
+.costado_second_title_dos{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: end;
 }
 .costado_btn1{
     background-color: var(--preto-06);
@@ -198,19 +223,35 @@ body{
     cursor: pointer;
     text-align: center;
 }
-.costado_btn2{
-    background-color: var(--azul-100);
-    width: 6rem; 
-    height: 2rem;  
-    text-decoration: none;
-    color: var(--preto-branco);
-    border-color: var(--azul-100);
-    cursor: pointer;
-    text-align: center;
+.btn-outline-light{
+    border-color: var(--azul-100) !important;
+    color: var(--azul-100) !important;
 }
-.costado_btn{
+.costado_btn_dos{
+    text-align: end;
+}
+/* septimo */
+.seven_container{
+    background-color: var(--preto-05);
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
     display: flex;
-    /* justify-content: space-between; */
-    flex-direction: row;
-    gap: 10px;
+    justify-content: center;
+    padding: 2rem;
+    gap: 30px;
+}
+.form_title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.form_subtitle{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* footer */
+.eight_container{
+    font-family: 'Raleway', sans-serif;
+    color: var(--preto-100);
+    text-align: center;
+    margin: 1rem;
 }
