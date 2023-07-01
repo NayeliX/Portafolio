@@ -1,4 +1,4 @@
-@media (min-width:768px) and (max-width:1020px){
+@media (min-width:768px) and (max-width:1023px){
     /* HEADER */
     .header{
         display: flex;
@@ -34,5 +34,26 @@
         flex-direction: row;
     }
     /* ABOUT ME */
-    
+    .second_title{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        padding: 1rem;
+    }
+    .second_description{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 1rem;
+        width:100%
+    }
+    .second_firma{
+        width: 150px;
+        margin: 0;
+        padding: 1rem;
+    }
 }
