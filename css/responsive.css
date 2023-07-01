@@ -1,0 +1,38 @@
+@media (min-width:768px) and (max-width:1020px){
+    /* HEADER */
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .enlaces :not(:last-child){
+        display: none;
+    }
+    .container_first{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left{
+        margin: 0;
+    }
+    .leftTitle{
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+        font-size: 22px;
+    }
+    .leftDescription{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .social{
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        gap:32px;
+        flex-direction: row;
+    }
+    /* ABOUT ME */
+    
+}
