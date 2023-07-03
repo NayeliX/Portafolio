@@ -56,4 +56,64 @@
         margin: 0;
         padding: 1rem;
     }
+    /* SKILLS */
+    .third_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 1rem;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap:16px;
+    }
+    /* HOBBIES */
+    .four_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* FORMACIÓN */
+    .five_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .cards_five_container {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        gap: 16px;
+    }
+    .five_cards{
+        width:100%;
+        max-width: 100%;
+    }
+    .six_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .reto_uno{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .reto_dos{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 1rem;
+    }
+    .seven_container_img{
+        display: none;
+    }
 }
