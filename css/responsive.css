@@ -113,6 +113,15 @@
         flex-direction: column-reverse;
         margin: 1rem;
     }
+    .costado_title_dos{
+        text-align: left;
+    }
+    .costado_second_title_dos{
+        text-align: left;
+    }
+    .costado_btn_dos{
+        text-align: left;
+    }
     .seven_container_img{
         display: none;
     }
