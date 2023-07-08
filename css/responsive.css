@@ -113,6 +113,14 @@
         flex-direction: column-reverse;
         margin: 1rem;
     }
+    .costado{
+        display: flex;
+        width: 100%;
+    }
+    .costado_dos{
+        display: flex;
+        width: 100%;
+    }
     .costado_title_dos{
         text-align: left;
     }
@@ -122,6 +130,179 @@
     .costado_btn_dos{
         text-align: left;
     }
+    .seven_container_img{
+        display: none;
+    }
+}
+/* celulares */
+@media (max-width:767px){
+    body{
+        margin: 0;
+    }
+    /* HEADER */
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .enlaces :not(:last-child){
+        display: none;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .left{
+        margin: 0;
+    }
+    /* primero */
+    .container_first{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rightPicture{
+        width: 108px;
+        height: 108px;
+    }
+    .leftTitle{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .leftDescription{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .social{
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        gap:10px;
+        flex-direction: row;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    /* ABOUT ME */
+    .second_title{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        padding: 1rem;
+    }
+    .second_description{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 1rem;
+        width:100%
+    }
+    .second_firma{
+        width: 150px;
+        margin: 0;
+        padding: 1rem;
+    }
+    /* SKILLS */
+    .third_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .third_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 1rem;
+    }
+    .cards{
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+    /* HOBBIES */
+    .four_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+     /* FORMACIÓN */
+    .five_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .cards_five_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2rem;
+        gap: 16px;
+    }
+    .five_cards{
+        width:100%;
+        max-width: 100%;
+    }
+    /* experiencias */
+    .six_title{
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .reto_uno{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .reto_dos{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 1rem;
+    }
+    .costado{
+        display: flex;
+        width: 100%;
+    }
+    .costado_dos{
+        display: flex;
+        width: 100%;
+    }
+    .costado_title{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .costado_title_dos{
+        text-align: left;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .costado_second_title_dos{
+        text-align: left;
+    }
+    .costado_btn_dos{
+        text-align: left;
+    }
+    /* contacto */
     .seven_container_img{
         display: none;
     }
